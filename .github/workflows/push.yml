@@ -3,7 +3,7 @@ name: deploy
 jobs: 
   deploy:
     name: deploy to cluster
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/chedckout@master
     - name: build and push to docker
